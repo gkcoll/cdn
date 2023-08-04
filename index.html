@@ -1,1 +1,1111 @@
-<h1>GKCOLL CDN REPOSITORY</h1>
+<!DOCTYPE html>
+
+<head>
+    <title>GKCOLL CDN SERVICE</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://www.gkcoll.xyz/favicon.ico">
+    <script src="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/bootstrap/5.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/themes/prism-okaidia.min.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/github-buttons/2.27.0/buttons.min.js"></script>
+    <style>
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 300;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_FQft1dw.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 300;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_Gwft.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHjxsAUi-qJCY.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHjxsAXC-q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+    <style>
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+
+        /* cyrillic */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+
+        /* cyrillic */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+    <style>
+        .btn,
+        a,
+        a.btn {
+            -webkit-transition: .4s ease-in-out;
+            -moz-transition: .4s ease-in-out;
+            -ms-transition: .4s ease-in-out;
+            -o-transition: .4s ease-in-out
+        }
+
+        body,
+        pre code {
+            font-size: 16px
+        }
+
+        body {
+            font-family: Lato, arial, sans-serif;
+            color: #444;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        .header .logo,
+        .header .main-nav .nav .nav-item,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 700;
+            font-family: Montserrat, sans-serif
+        }
+
+        .header.navbar-fixed-top .logo,
+        a,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #50c8c9
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #36afb0
+        }
+
+        .btn,
+        .header .logo:hover,
+        a.btn {
+            text-decoration: none
+        }
+
+        .btn,
+        a.btn {
+            font-family: Montserrat, arial, sans-serif;
+            padding: 8px 16px;
+            font-weight: 700
+        }
+
+        .btn .svg-inline--fa,
+        a.btn .svg-inline--fa {
+            margin-right: 5px
+        }
+
+        .btn:focus,
+        a.btn:focus {
+            color: #fff;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none
+        }
+
+        .btn-cta-primary,
+        a.btn-cta-primary {
+            background: #1e6162;
+            border: 1px solid #1e6162;
+            color: #fff;
+            font-weight: 600;
+            text-transform: uppercase
+        }
+
+        .btn-cta-primary:hover,
+        a.btn-cta-primary:hover {
+            background: #184e4e;
+            border: 1px solid #184e4e;
+            color: #fff
+        }
+
+        .btn-cta-secondary,
+        a.btn-cta-secondary {
+            background: #ffbe57;
+            border: 1px solid #ffbe57;
+            color: #fff;
+            font-weight: 600;
+            text-transform: uppercase
+        }
+
+        .header,
+        .promo {
+            background: #50c8c9
+        }
+
+        .btn-cta-secondary:hover,
+        a.btn-cta-secondary:hover {
+            background: #ffb43e;
+            border: 1px solid #ffb43e;
+            color: #fff
+        }
+
+        .contact .author-message .speech-bubble .source a,
+        .contact a,
+        .features a,
+        .promo .meta a:hover,
+        .text-highlight {
+            color: #1e6162
+        }
+
+        .offset-header {
+            padding-top: 90px
+        }
+
+        .header {
+            color: #fff;
+            position: fixed;
+            width: 100%
+        }
+
+        .header.navbar-fixed-top {
+            background: #fff;
+            z-index: 9999;
+            -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+            -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+            box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+            height: 70px
+        }
+
+        .header .logo {
+            margin: 0;
+            font-size: 26px;
+            color: #fff
+        }
+
+        .header .main-nav .navbar-collapse {
+            padding: 0
+        }
+
+        .header .main-nav .navbar-toggler {
+            margin-right: 0;
+            background: #1e6162;
+            float: right;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            padding: 8px;
+            right: 10px;
+            top: 10px;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none
+        }
+
+        .promo .btns .btn,
+        .promo .meta li {
+            margin-right: 15px
+        }
+
+        .header .main-nav .navbar-toggler:focus {
+            outline: 0
+        }
+
+        .header .main-nav .navbar-toggler .icon-bar {
+            display: block;
+            background-color: #fff;
+            height: 2px;
+            width: 22px;
+            -webkit-border-radius: 1px;
+            -moz-border-radius: 1px;
+            -ms-border-radius: 1px;
+            -o-border-radius: 1px;
+            border-radius: 1px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box
+        }
+
+        .header .main-nav .navbar-toggler .icon-bar+.icon-bar {
+            margin-top: 4px
+        }
+
+        .header .main-nav .navbar-toggler:hover .icon-bar {
+            background-color: #fff
+        }
+
+        .header .main-nav .nav .nav-item {
+            margin-right: 30px
+        }
+
+        .header .main-nav .nav .nav-item .nav-link {
+            color: #247575;
+            -webkit-transition: none;
+            -moz-transition: none;
+            -ms-transition: none;
+            -o-transition: none;
+            font-size: 14px;
+            padding: 15px 10px;
+            text-decoration: none
+        }
+
+        .header .main-nav .nav .nav-item .nav-link:hover {
+            color: #1e6162;
+            background: 0 0
+        }
+
+        .header .main-nav .nav .nav-item .nav-link:active,
+        .header .main-nav .nav .nav-item .nav-link:focus {
+            outline: 0;
+            background: 0 0
+        }
+
+        .header .main-nav .nav .nav-item.active .nav-link {
+            color: #50c8c9;
+            background: 0 0
+        }
+
+        .contact .social-icons li.last,
+        .header .main-nav .nav .nav-item.last {
+            margin-right: 0
+        }
+
+        .promo {
+            color: #fff;
+            padding-top: 150px
+        }
+
+        .promo .title {
+            font-size: 98px;
+            color: #1e6162;
+            margin-top: 0
+        }
+
+        .promo .meta,
+        .promo .meta a {
+            color: #2a8889
+        }
+
+        .promo .title .highlight {
+            color: #ffbe57
+        }
+
+        .promo .intro {
+            font-size: 28px;
+            max-width: 680px;
+            margin: 0 auto 30px
+        }
+
+        .promo .btns .btn {
+            font-size: 18px;
+            padding: 8px 30px
+        }
+
+        .promo .meta {
+            margin-top: 120px;
+            margin-bottom: 30px
+        }
+
+        .promo .social-media {
+            background: #309b9c;
+            padding: 10px 0;
+            margin: 0 auto
+        }
+
+        .promo .social-media li {
+            margin-top: 15px
+        }
+
+        .promo .social-media li.facebook-like {
+            margin-top: 0;
+            position: relative;
+            top: 2px
+        }
+
+        .about,
+        .docs,
+        .license {
+            padding: 80px 0;
+            background: #f5f5f5
+        }
+
+        .about .title {
+            color: #1e6162;
+            margin-top: 0;
+            margin-bottom: 60px
+        }
+
+        .about .intro {
+            max-width: 800px;
+            margin: 0 auto 60px
+        }
+
+        .about .item {
+            position: relative;
+            margin-bottom: 30px
+        }
+
+        .about .item .icon-holder {
+            position: absolute;
+            left: 30px;
+            top: 0
+        }
+
+        .about .item .icon-holder .svg-inline--fa {
+            font-size: 24px;
+            color: #1e6162
+        }
+
+        .about .item .content {
+            padding-left: 60px
+        }
+
+        .about .item .content .sub-title {
+            margin-top: 0;
+            color: #1e6162;
+            font-size: 18px
+        }
+
+        .contact,
+        .features {
+            padding: 80px 0;
+            background: #50c8c9;
+            color: #fff
+        }
+
+        .contact .title,
+        .docs .title,
+        .features .title {
+            color: #1e6162;
+            margin-top: 0;
+            margin-bottom: 30px
+        }
+
+        .contact a:hover,
+        .features a:hover {
+            color: #123b3b
+        }
+
+        .features .feature-list li {
+            margin-bottom: 10px;
+            color: #1e6162
+        }
+
+        .features .feature-list li .svg-inline--fa {
+            margin-right: 5px;
+            color: rgba(0, 0, 0, .3)
+        }
+
+        .contact .author-message .speech-bubble a,
+        .footer {
+            color: #fff
+        }
+
+        .docs .docs-inner,
+        .license .license-inner {
+            max-width: 800px;
+            background: padding-box #fff;
+            padding: 30px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            margin: 0 auto
+        }
+
+        .docs .code-block pre[class*=language-],
+        .license .cta-container {
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box
+        }
+
+        .contact .intro,
+        .docs .block {
+            margin-bottom: 60px
+        }
+
+        .docs .code-block {
+            margin: 30px inherit
+        }
+
+        .docs .code-block pre[class*=language-] {
+            border-radius: 4px;
+            background-clip: padding-box
+        }
+
+        .license .title {
+            margin-top: 0;
+            margin-bottom: 30px;
+            color: #1e6162
+        }
+
+        .contact .contact-inner,
+        .license .info {
+            max-width: 760px;
+            margin: 0 auto
+        }
+
+        .license .cta-container {
+            max-width: 540px;
+            margin: 60px auto 0;
+            border-radius: 4px;
+            background-clip: padding-box
+        }
+
+        .license .cta-container .speech-bubble {
+            background: padding-box #ecf9f9;
+            color: #1e6162;
+            padding: 30px;
+            margin-bottom: 30px;
+            position: relative;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box
+        }
+
+        .license .cta-container .speech-bubble:after {
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            margin-left: -10px;
+            content: "";
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #ecf9f9
+        }
+
+        .license .cta-container .icon-holder {
+            margin-bottom: 15px
+        }
+
+        .license .cta-container .icon-holder .svg-inline--fa {
+            font-size: 56px
+        }
+
+        .license .cta-container .intro {
+            margin-bottom: 30px
+        }
+
+        .contact .author-message {
+            position: relative;
+            margin-bottom: 60px
+        }
+
+        .contact .author-message .profile {
+            position: absolute;
+            left: 30px;
+            top: 15px;
+            width: 100px;
+            height: 100px
+        }
+
+        .contact .author-message .profile img {
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box
+        }
+
+        .contact .author-message .speech-bubble {
+            margin-left: 155px;
+            background: padding-box #44c4c5;
+            color: #1e6162;
+            padding: 30px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            position: relative
+        }
+
+        .contact .author-message .speech-bubble .sub-title {
+            color: #1e6162;
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 30px
+        }
+
+        .contact .author-message .speech-bubble:after {
+            position: absolute;
+            left: -10px;
+            top: 60px;
+            content: "";
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-right: 10px solid #44c4c5
+        }
+
+        .contact .author-message .speech-bubble .source {
+            margin-top: 30px
+        }
+
+        .contact .author-message .speech-bubble .source .title {
+            color: #309b9c
+        }
+
+        .contact .info .sub-title {
+            color: #2a8889;
+            margin-bottom: 20px;
+            margin-top: 0;
+            font-size: 18px
+        }
+
+        .contact .social-icons {
+            list-style: none;
+            padding: 10px 0;
+            display: inline-block;
+            margin: 0 auto
+        }
+
+        .contact .social-icons li {
+            float: left
+        }
+
+        .contact .social-icons a {
+            display: inline-block;
+            background: padding-box #309b9c;
+            width: 48px;
+            height: 48px;
+            text-align: center;
+            font-size: 24px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            margin-right: 8px;
+            float: left
+        }
+
+        .contact .social-icons a:hover {
+            background: #ffaa24
+        }
+
+        .contact .social-icons a .svg-inline--fa {
+            color: #fff;
+            text-align: center;
+            margin-top: 14px;
+            font-size: 20px
+        }
+
+        .footer {
+            padding: 15px 0;
+            background: #123b3b
+        }
+
+        .footer .copyright {
+            -webkit-opacity: 0.8;
+            -moz-opacity: 0.8;
+            opacity: .8
+        }
+
+        .footer .fa-heart {
+            color: #fb866a
+        }
+
+        @media (max-width:767px) {
+            .header .main-nav .navbar-collapse {
+                border-top: none;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                width: 100%;
+                left: 0;
+                top: 60px;
+                position: absolute;
+                background: #fff
+            }
+
+            .header .main-nav .navbar-collapse .navbar-nav {
+                margin-left: 10px
+            }
+
+            .header.navbar-fixed-top {
+                height: 70px
+            }
+
+            .promo .btns .btn {
+                margin-right: 0;
+                clear: both;
+                display: block;
+                margin-bottom: 30px
+            }
+
+            .promo .title {
+                font-size: 66px
+            }
+
+            .promo .meta {
+                margin-top: 60px
+            }
+
+            .promo .meta li {
+                float: none;
+                display: block;
+                margin-bottom: 5px
+            }
+
+            .contact .author-message {
+                text-align: center
+            }
+
+            .contact .author-message .profile {
+                position: static;
+                margin: 0 auto 30px
+            }
+
+            .contact .author-message .speech-bubble {
+                margin-left: 0
+            }
+
+            .contact .author-message .speech-bubble:after {
+                display: none
+            }
+
+            .contact .social-icons a {
+                width: 36px;
+                height: 36px;
+                margin-right: 2px;
+                font-size: 18px
+            }
+
+            .contact .social-icons a .svg-inline--fa {
+                margin-top: 7px
+            }
+        }
+    </style>
+</head>
+
+<body data-spy="scroll">
+    <header id="header" class="header">
+        <nav id="main-nav" class="main-nav navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand logo scrollto" href="https://www.gkcoll.xyz">
+                    <img src="https://www.gkcoll.xyz/logo.png" width=40%>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse"
+                    aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul id="nav-menu" class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item sr-only"><a class="nav-link scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#docs">Docs</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#license">License</a></li>
+                        <li class="nav-item last"><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="promo" class="promo section offset-header">
+        <div class="container text-center">
+            <h2 class="title">GK <span class="highlight">CDN Service</span></h2>
+            <p class="intro">A project for help developers in countries that have trouble in visit GitHub to solve visit
+                the raw links.</p>
+            <div class="btns">
+                <a class="btn btn-cta-secondary" href="https://cdn.gkcoll.xyz/js/reward-js/reward.min.js" target="_blank">Demo</a>
+                <!--a class="btn btn-cta-primary" href="http://www.mobanwang.com/" target="_blank">Download</a-->
+            </div>
+            <ul class="meta list-inline">
+                <!--li class="list-inline-item"><a target="_blank" href="http://www.mobanwang.com" title="网页模板">网页模板</a>
+                </li>
+                <li class="list-inline-item"><a href="http://www.mobanwang.com/" target="_blank">Full Documentation</a>
+                </li>
+                <li class="list-inline-item"><a target="_blank" href="http://www.mobanwang.com" title="网页模板">网页模板</a>
+                </li-->
+            </ul>
+        </div>
+        <div class="social-media">
+            <div class="social-media-inner container text-center">
+                <ul class="list-inline mb-2">
+
+                    <li class="list-inline-item github-star">
+                        <a class="github-button" href="https://github.com/gkcoll/cdn" data-icon="octicon-star"
+                            data-show-count="true" aria-label="Star gkcoll/cdn on GitHub">Star</a>
+                    </li>
+                    <li class="list-inline-item github-fork"><a class="github-button"
+                            href="https://github.com/gkcoll/cdn/fork" data-icon="octicon-repo-forked"
+                            data-show-count="true" aria-label="Fork gkcoll/cdn on GitHub">Fork</a></li>
+                    <li class="list-inline-item github-follow">
+                        <a class="github-button" href="https://github.com/gkcoll"
+                            aria-label="Follow @gkcoll on GitHub">Follow @gkcoll</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="title text-center">What is GkCDN?</h2>
+            <p class="intro text-center">In Celestial Empire, there is an invisible and intangible wall in front of its
+                netizens, it's the Great Firewall (GFW). In the past years, it has really done a good job in isolate and
+                filter foreign Anti-Celestial-Empire speech.</p>
+            <p class="intro text-center">But now, what the developers in Celestial Empire saw is it ban too many
+                websites, there are many technical exchange websites among them. Although GitHub is not on the GFW
+                blacklist, here are also difficult to visit it. It often inaccessible and unstable, even its raw domain
+                name (raw.githuusercontent.com) cannot be accessed.</p>
+            <center class="intro text-center"><img alt='gfw' src='https://oss.gkcoll.xyz/img/gfw.jpg' width=50%>
+            </center>
+            <p class="intro text-center">I originally thought that some local platforms within Celestial Empire could
+                solve this problem, but they are all engaged in anti-stealing-link and content review. In order to
+                finish the homework assigned by the Celestial Empire, they never pay attention to maintain an
+                open-source environment at all.</p>
+            <p class="intro text-center">In order to create a CDN service of my own, I found Vercel by Big data, which
+                led to the project.</p>
+            <p class="intro text-center">This project use free bandwidth provided by Vercel and its Global CDN
+                acceleration, create a proxy service for the designated GitHub repository. Make developers who can't
+                visit GitHub and GitHub raw data links legally can visit them in another way.</p>
+
+        </div>
+    </section>
+
+
+    <section id="features" class="features section">
+        <div class="container text-center">
+            <h2 class="title">Features</h2>
+            <ul class="feature-list list-unstyled">
+                <li><i class="fa-solid fa-check"></i> 100% Free</li>
+                <li><i class="fa-solid fa-check"></i> No Anti-Stealing-Link</li>
+                <li><i class="fa-solid fa-check"></i> Avoid Being Review</li>
+                <li><i class="fa-solid fa-check"></i> No Server Required</li>
+                <li><i class="fa-solid fa-check"></i> Global Visible</li>
+                <li><i class="fa-solid fa-check"></i> Accelerated Access</li>
+                <li><i class="fa-solid fa-check"></i> Large Storage</li>
+                <li><i class="fa-solid fa-check"></i> Customize Domain Name</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="docs" class="docs section">
+        <div class="container">
+            <div class="docs-inner">
+                <h2 class="title text-center">Start Building Your Own CDN Service</h2>
+                <p>Before all operation, you should have a your own domain name. Like my <code>gkcoll.xyz</code>. The
+                    Vercel's <code>vercel.app</code> domain may unable to visit normally. We will resolve a
+                    subdomain (e.g <code>cdn.gkcoll.xyz</code>) to Vercel's server.</p>
+                <div class="block">
+                    <h3 class="sub-title text-center">Register GitHub</h3>
+                    <br>
+                    <blockquote
+                        style="font:16px/20px Microsoft YaHei,serif;color:#333;padding:18px;background-color:#f5f5f5;border-left:15px solid #666666;border-radius:5px;margin:5px;background-image:url('https://oss.gkcoll.xyz/img/quote_open.png');background-position:15px 10px;background-repeat:no-repeat;text-indent:23px;line-height:1.8;">
+                        If you already have a available GitHub account, you can skip this section.</blockquote>
+                    <center class="intro text-center"><img alt='github' src='https://oss.gkcoll.xyz/img/github.png'
+                            width=30%></center>
+                    <p>In my opinion, register a GitHub account is not a difficult thing. If you can't visit it in
+                        normal way, try to use a secure Virtual Private Network.</p>
+                    <p>Prepare a email address, open the backend.</p>
+                    <p>Enter <a href="https://github.com/signup" target="_blank">Join GitHub</a> in your web browser.
+                    </p>
+
+                </div>
+
+                <div class="block">
+                    <h3 class="sub-title text-center">Register Vercel</h3>
+                    <br>
+                    <center>
+                        <p><a target="_blank"
+                                href="https://vercel.com/new/clone?repository-url=https://github.com/gkcoll/cdn"><img
+                                    src="https://oss.gkcoll.xyz/img/vercel_home.png" style="max-width: 100%;"></a></p>
+                    </center>
+                    <p>Vercel is a easy way to create & deploy a online project. It's a cloud platform that supported
+                        import project from a GitHub repository, one click deployment, automatic update, everything in
+                        FREE (The Hobby Plan is enough for self using, and for more require you can try Pro Plan).</p>
+                    <p>Vercel also supported bind custom domain name, it's useful when their domain names are banned in
+                        some district. In addition, Vercel will apply to Let's Encrypt for generate an SSL certificate
+                        for your domain name after you bound a domain name (within a few seconds), so you don't have to
+                        worry about the issue of browsers prompts that your website is not secure.</p>
+                    <p>For register it, I suggest you choose authorize login with Github. But But it's not over yet, you
+                        still need to bind your phone number and email address.</p>
+                </div>
+
+                <div class="block">
+                    <h3 class="sub-title text-center">New a Repository</h3>
+                    <br>
+                    <p>You need a repository to store your static files. Open github.com, click <img
+                            src="https://oss.gkcoll.xyz/img/new_repository.png" width=60px> on the left sidebar.</p>
+                    <p>Complete your information in the opening page, here are some recommendation: </p>
+                    <ul class="list-unstyled">
+                        <li><strong>Repository Name</strong>: cdn</li>
+                        <li><strong>Visibility</strong>: Public</li>
+                        <li><strong>License</strong>: <a target="_blank" href="http://www.wtfpl.net">WTFPL</a> (It's not
+                            on the preselection list, you can choose to manually create a LICENSE file and paste the
+                            license content later on)</li>
+                    </ul>
+                    <p><b>Why we need it?</b></p>
+                    <p>This project is mainly aimed at self-maintained projects, and these files generally need to be
+                        updated frequently, and even serve as configuration files. Originally, JsDelivr was the best
+                        solution, but now due to some irresistible causes, it cannot be accessed in China (otherwise it
+                        wouldn't be so troublesome). So, using this project and Vercel's global free bandwidth
+                        acceleration to access these files (it is not recommended to use it to store images here because
+                        it consumes too much space and bandwidth). For open-source projects with high popularity and
+                        high star on GitHub, my suggestion is not to manually proxy them yourself. Because there are
+                        better options -- static resource public library websites, such as JsDelivr, BootCDN, Staticfile
+                        CDN. They are all out-of-the-box and you needn't worry about the accessibility of them.</p>
+                </div>
+
+                <div class="block">
+                    <h3 class="sub-title text-center">Deploy Project</h3>
+                    <br>
+                    <p>If you are interested in some of my files in my gkcoll/cdn repository, you can <a
+                            class="github-button" href="https://github.com/buttons/github-buttons/fork"
+                            aria-label="Fork gkcoll/cdn on GitHub">Fork</a> one, then
+                        deploy it (click the button below).</p>
+                    <center><a target="_blank" href="https://vercel.com/new/"><img
+                                src='https://oss.gkcoll.xyz/img/deploy.svg' style="max-width: 100%;"></a></center>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="license" class="license section">
+        <div class="container">
+            <div class="license-inner">
+                <h2 class="title text-center">LICENSE</h2>
+                <div class="info">
+                    <p>Copyright © 2000 <i>Albert Lin</i> gkcoll@111.com
+                        This work is free. It comes without any warranty, to the extent permitted by applicable law. You
+                        can redistribute it and/or modify it under the terms of the <i>Do What
+                            The Fuck You Want To Public License, Version 2</i>, as published by Sam Hocevar. See the <a
+                            target="_blank" href="./LICENSE">LICENSE</a> file
+                        for more details.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <div class="contact-inner">
+                <h2 class="title  text-center">Contact</h2>
+                <p class="intro  text-center">In fact, I can't estimate how meaningful or helpful this project is to
+                    you. Perhaps the most important thing is to use the Vercel reverse proxy idea. But that doesn't
+                    matter, I really hope you can give my project a star after using it, and I'd love to make friends
+                    with you!</p>
+                <div class="author-message">
+                    <div class="profile">
+                        <img class="img-fluid"
+                            src="https://cravatar.cn/avatar/c05c290ceab9fa284fd4f215e6970fba.png?s=150" alt="" />
+                    </div>
+                    <div class="speech-bubble">
+                        <h3 class="sub-title">Finding more interesting?</h3>
+                        <p>You can <a class="github-button" href="https://github.com/gkcoll"
+                                aria-label="Follow @gkcoll on GitHub">Follow me on GitHub</a>, and I will open source
+                            some projects that I have written and consider valuable on it. They may language in Python,
+                            JS and so on.</p>
+                        <p><strong>Chat with me?</strong> Because the GFW (of the Celestial Empire), I can't visit many
+                            foreign softwares legally, so I just can send and receive messages by email.</p>
+                        <div class="source">
+                            <span class="name"><a target="_blank" href="http://www.gkcoll.xyz">Albert Lin
+                                    (灰尘疾客)</a></span>
+                            <br />
+                            <span class="title">gkcoll@111.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="info text-center">
+                    <h4 class="sub-title">Get Connected</h4>
+                    <ul class="social-icons list-inline">
+                        <li class="list-inline-item last"><a
+                                onclick="alert('My email is gkcoll@111.com, copy it then use it in your email client.');"><i
+                                    class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container text-center">
+            <small class="copyright">
+                <a target="_blank" href="http://www.gkcoll.xyz" title="Author's Blog">Geek Collection</a>
+                <br>
+                Powered by the 100 GB/month free bandwidth provided by <a target="_blank" href="https://vercel.com/"
+                    title="Vercel">Vercel</a>
+                <br>
+                Based on the theme <a target="_blank" href="https://github.com/xriley/devAid-Theme">DevAid</a> developed
+                by <a target="_blank" href="https://themes.3rdwavemedia.com/">Xiaoying Riley</a>
+            </small>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
